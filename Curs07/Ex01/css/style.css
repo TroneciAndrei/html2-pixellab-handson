@@ -1,0 +1,119 @@
+@keyframes bar-01{
+  0%{
+    width: 50px;
+  }
+
+  100%{
+    width: 100%;
+  }
+}
+
+.bar-01{
+  animation:bar-01 10s ease-in;
+}
+
+@keyframes bar-02{
+  0%{
+    width: 150px;
+  }
+
+  100%{
+    width: 100%;
+  }
+}
+
+.bar-02{
+  animation:bar-01 8s linear;
+}
+
+@keyframes bar-03{
+  0%{
+    background-color: blue;
+    width: 100%;
+  }
+
+  33.3%{
+    background-color: yellow;
+    width: 75%;
+  }
+
+  66.6%{
+    background-color: red;
+    width: 250px;
+  }
+
+  100%{
+    background-color: blue;
+    width: 5px;
+  }
+}
+
+.bar-03{
+  animation:bar-03 12s ease-in;
+}
+
+
+@keyframes bar-04 {
+  25% {
+    background-color: red;
+    width: 100%;
+  }
+
+  50% {
+    background-color: blue;
+    width: 50%;
+  }
+
+  75% {
+    background-color: black;
+  }
+
+  100% {
+    background-color: orange;
+    width: 150px;
+  }
+}
+
+.bar-04 {
+  animation: bar-04 5s ease-out;
+}
+
+@keyframes bar-05 {
+  0% {
+    background-color: green;
+    width: 100%;
+  }
+
+  33.3% {
+    background-color: red;
+    width: 500px;
+  }
+
+  66.6% {
+    background-color: green;
+    width: 75%;
+  }
+
+  1000% {
+    background-color: orange;
+    width: 500px;
+  }
+}
+
+.bar-05 {
+  animation: bar-05 8s linear forwards;
+}
+
+@keyframes bar-06{
+  0%{
+    width: 200px;
+  }
+
+  100%{
+    width:100%;
+  }
+}
+
+.bar-06{
+  animation: bar-06 4s ease-in;
+}
